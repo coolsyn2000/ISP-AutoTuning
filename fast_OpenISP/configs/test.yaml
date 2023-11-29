@@ -1,0 +1,91 @@
+module_enable_status:
+  dpc: true
+  blc: true
+  aaf: true
+  awb: true
+  cnf: true
+  cfa: true
+  ccm: true
+  gac: true
+  csc: true
+  nlm: true
+  bnf: true
+  ceh: true
+  eeh: true
+  fcs: true
+  hsc: true
+  bcc: true
+  scl: false
+hardware:
+  raw_width: 1920
+  raw_height: 1080
+  raw_bit_depth: 10
+  bayer_pattern: rggb
+dpc:
+  diff_threshold: 30
+blc:
+  bl_r: 0
+  bl_gr: 0
+  bl_gb: 0
+  bl_b: 0
+  alpha: 0
+  beta: 0
+aaf: null
+awb:
+  r_gain: 1860
+  gr_gain: 1024
+  gb_gain: 1024
+  b_gain: 1280
+cnf:
+  diff_threshold: 0
+  r_gain: 1860
+  b_gain: 1280
+cfa:
+  mode: malvar
+ccm:
+  ccm:
+  - - 1024
+    - 0
+    - 0
+    - 0
+  - - 0
+    - 1024
+    - 0
+    - 0
+  - - 0
+    - 0
+    - 1024
+    - 0
+gac:
+  gain: 256
+  gamma: 0.42
+csc: null
+nlm:
+  search_window_size: 9
+  patch_size: 3
+  h: 60
+bnf:
+  intensity_sigma: 0.8
+  spatial_sigma: 0.8
+ceh:
+  tiles:
+  - 4
+  - 6
+  clip_limit: 0.01
+eeh:
+  edge_gain: 689
+  flat_threshold: 4
+  edge_threshold: 8
+  delta_threshold: 64
+fcs:
+  delta_min: 8
+  delta_max: 32
+hsc:
+  hue_offset: 0
+  saturation_gain: 256
+bcc:
+  brightness_offset: 0
+  contrast_gain: 256
+scl:
+  width: 1920
+  height: 1080

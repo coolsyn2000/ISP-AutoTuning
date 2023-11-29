@@ -1,0 +1,7 @@
+pyyaml~=6.0.1
+opencv-python~=4.8.1.78
+numpy~=1.26.2
+scikit-image~=0.22.0
+openbox~=0.8.1
+lpips~=0.1.4
+torch~=2.1.1
